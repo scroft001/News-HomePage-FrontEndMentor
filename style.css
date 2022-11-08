@@ -17,7 +17,36 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    margin: 2rem 6rem;
+}
 
 p{
     font-size: 15px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul li{
+    list-style-type: none;
+    padding: 1rem;
+    color: var(--grayish-blue);
+}
+
+nav ul li:hover{
+    color: var(--soft-red);
+    cursor: pointer;
 }
