@@ -56,6 +56,7 @@ nav ul li:hover{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin-bottom: 3rem;
 }
 
 .hero__left{
@@ -69,4 +70,56 @@ nav ul li:hover{
 
 .hero__right{
     padding: 1.5rem;
+    background-color: var(--very-dark-blue);
+}
+
+.hero__right h2{
+    color: var(--soft-red);
+}
+
+.hero__right h3{
+    color: var(--off-white);
+}
+
+.hero__right p{
+    color: var(--grayish-blue);
+}
+
+.hero__left-story{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 2rem;
+}
+
+.hero__left-story h1{
+    font-size: 40px;
+    width: 40%;
+    font-weight: 800;
+    margin-right: 3rem;
+}
+
+.hero__left-story-text{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.hero__left-story-text p{
+    color: var(--dark-grayish-blue);
+    line-height: 1.4em;
+    margin-bottom: 2rem;
+}
+
+.hero__left-story-text button{
+    padding: .5rem 2rem;
+    letter-spacing: 0.3rem;
+    text-transform:uppercase;
+    background-color: var(--soft-red);
+    color: var(--off-white);
+    border: none;
+    font-size: 15px;
 }
