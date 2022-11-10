@@ -43,7 +43,7 @@ nav ul{
 nav ul li{
     list-style-type: none;
     padding: 1rem;
-    color: var(--grayish-blue);
+    color: var(--dark-grayish-blue);
 }
 
 nav ul li:hover{
@@ -60,7 +60,7 @@ nav ul li:hover{
 }
 
 .hero__left{
-    width: 70%;
+    width: 65%;
     margin-right: 2rem;
 }
 
@@ -69,20 +69,29 @@ nav ul li:hover{
 }
 
 .hero__right{
+    width: 30%;
     padding: 1.5rem;
     background-color: var(--very-dark-blue);
 }
 
 .hero__right h2{
-    color: var(--soft-red);
+    color: var(--soft-orange);
+    margin-bottom:1.4em;
 }
 
 .hero__right h3{
     color: var(--off-white);
+    margin-bottom:1rem;
 }
 
 .hero__right p{
     color: var(--grayish-blue);
+    line-height: 1.4em;
+}
+
+hr{
+    background-color: var(--grayish-blue);
+    margin: 1.5rem 0rem;
 }
 
 .hero__left-story{
