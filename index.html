@@ -8,7 +8,7 @@
   
   <title>News homepage</title>
   <link rel="stylesheet" href="style.css">
-
+  <script src="script.js"></script>
 </head>
 <body>
   <nav>
@@ -20,7 +20,20 @@
       <li>Trending</li>
       <li>Categories</li>
     </ul>
+
+    <span onclick="showNav()" class="navIcon">
+      <img src="./assets/images/icon-menu.svg">
+    </span>
   </nav>
+
+  <ul class="mobileNav">
+    <img onclick="hideNav()" src="./assets/images/icon-menu-close.svg">
+    <li>Home</li>
+    <li>New</li>
+    <li>Popular</li>
+    <li>Trending</li>
+    <li>Categories</li>
+  </ul>
 
   <main class="hero">
     <section class="hero__left">

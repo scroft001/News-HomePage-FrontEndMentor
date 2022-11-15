@@ -51,6 +51,10 @@ nav ul li:hover{
     cursor: pointer;
 }
 
+.mobileNav, .navIcon{
+    display: none;
+}
+
 .hero{
     display: flex;
     flex-direction: row;
@@ -223,5 +227,37 @@ hr{
 
     nav ul{
         display: none;
+    }
+
+    .navIcon{
+        display: flex;
+    }
+
+    .mobileNav{
+        display: none;
+        flex-direction: column;
+        justify-content: flex-start;
+        justify-content: flex-start;
+        position: absolute;
+        height: 100vh;
+        width: 75vw;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        background-color: var(--off-white);
+    }
+
+    .mobileNav li{
+        list-style-type: none;
+        font-size: 24px;
+        color: var(--dark-grayish-blue);
+        margin: 1rem 2rem;
+    }
+
+    .mobileNav img{
+        width: 20px;
+        margin-left: 80%;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
     }
 }
